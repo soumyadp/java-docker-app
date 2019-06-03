@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hello-java-pod
+spec:
+  containers:
+  - name: hello-java-pod
+    image: flixacr.azurecr.io/soumyadp/java-docker-app
